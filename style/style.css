@@ -1,0 +1,29 @@
+a {
+    color: #3D37F1;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    height: 126px;
+    padding: 30px;
+    top: 30px;
+ 
+}
+.logo {
+    font-size: 32px;
+    width: 190px;
+    height: 43px;
+}
+.navigations {
+    display: flex;
+    width: 596px;
+    height: 27px;
+}
+.nav-li {
+    font-size: 20px;
+    margin-right: 50px;
+}
+.nav-li: :last-child {
+    margin-right : 0;
+}
