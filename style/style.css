@@ -4,6 +4,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1600px;
     height: 126px;
     padding: 30px;
