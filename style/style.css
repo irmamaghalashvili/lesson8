@@ -48,6 +48,7 @@ a {
 .h2 {
     font-family: 'Lato';
     font-weight: bold;
+    line-height: 109px;
     width: 636px;
     font-size: 78px;
     color: #534D4D;
@@ -107,6 +108,7 @@ a {
 .paragtaph {
     font-family: 'Roboto';
     font-size: 18px;
+    line-height: 28px;
     color: #747474;
 }
 .block-wraper {
@@ -140,6 +142,7 @@ a {
 }
 .flax-child-block1-p {
     font-family: 'Roboto';
+    line-height: 26px;
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -180,6 +183,7 @@ a {
 }
 .flax-child-block2-p {
     font-family: 'Roboto';
+    line-height: 26px;
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -215,6 +219,7 @@ a {
 .flax-child-block3-p {
     font-family: 'Roboto';
     width: 328px;
+    line-height: 26px;
     height: 62px;
     font-size: 16px;
     color: #FFFFFF;
@@ -277,6 +282,7 @@ a {
 .flax-child-block4-p {
     font-family: 'Roboto';
     width: 328px;
+    line-height: 26px;
     height: 62px;
     font-size: 16px;
     color: #FFFFFF;
@@ -320,6 +326,7 @@ a {
 .flax-child-block5-p {
     font-family: 'Roboto';
     width: 328px;
+    line-height: 26px;
     height: 62px;
     font-size: 16px;
     color: #FFFFFF;
@@ -363,6 +370,7 @@ a {
 .flax-child-block6-p {
     font-family: 'Roboto';
     width: 328px;
+    line-height: 26px;
     height: 62px;
     font-size: 16px;
     color: #FFFFFF;
