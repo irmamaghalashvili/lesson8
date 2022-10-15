@@ -4,6 +4,7 @@ a {
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 1600px;
     height: 126px;
     padding: 30px;
@@ -27,6 +28,7 @@ a {
 .nav-li: :last-child {
     margin-right : 0;
 }
+<<<<<<< HEAD
 /*section1*/
 .section1 {
     display: flex;
@@ -355,3 +357,5 @@ a {
     font-size: 16px;
     color: #FFFFFF;
 }
+=======
+>>>>>>> 27934d754bdde27af78d91f16c5abfdea229babe
