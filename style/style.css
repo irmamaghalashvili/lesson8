@@ -12,6 +12,7 @@ a {
  
 }
 .logo {
+    font-family: 'Lato';
     font-size: 32px;
     width: 190px;
     height: 43px;
@@ -22,13 +23,14 @@ a {
     height: 27px;
 }
 .nav-li {
+    font-family: 'Lato';
+    font-weight: bold;
     font-size: 20px;
     margin-right: 50px;
 }
 .nav-li: :last-child {
     margin-right : 0;
 }
-<<<<<<< HEAD
 /*section1*/
 .section1 {
     display: flex;
@@ -43,12 +45,15 @@ a {
     height: 527px;
 }
 .h2 {
+    font-family: 'Lato';
+    font-weight: bold;
     width: 636px;
     font-size: 78px;
     color: #534D4D;
     
 }
 .small-paragraph {
+    font-family: 'Roboto';
     width: 602px;
     font-size: 22px;
     margin-top: 39px;
@@ -70,6 +75,7 @@ a {
     margin-right: 30.7px;
 }
 .span {
+    font-family: 'Poppins';
     font-size: 23px;
     color: white;
 }
@@ -85,16 +91,20 @@ a {
     background-color: #FBFCFD;
 }
 .hh {
+    font-family: 'Lato';
+    font-weight: bold;
     margin-top: 85px;
     font-size: 20px;
 }
 .hhh {
+    font-family: 'Lato';
     font-size: 40px;
     margin-top: 12px;
     margin-bottom: 20px;
     color: #5A5454;
 }
 .paragtaph {
+    font-family: 'Roboto';
     font-size: 18px;
     color: #747474;
 }
@@ -120,6 +130,7 @@ a {
     flex-direction: column;
 }
 .flax-child-block1-h4 {
+    font-family: 'Lato';
     width: 104px;
     font-size: 22px;
     color: #FFFFFF;
@@ -127,6 +138,7 @@ a {
     margin-bottom: 11px;
 }
 .flax-child-block1-p {
+    font-family: 'Roboto';
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -145,6 +157,7 @@ a {
     align-items: center;
 }
 .flax-child-block1-span {
+    font-family: 'Roboto';
     font-size: 16px;
 }
 .flax-child-block2 {
@@ -157,6 +170,7 @@ a {
     flex-direction: column;
 }
 .flax-child-block2-h4 {
+    font-family: 'Lato';
     width: 92px;
     font-size: 22px;
     color: #FFFFFF;
@@ -164,6 +178,7 @@ a {
     margin-bottom: 11px;
 }
 .flax-child-block2-p {
+    font-family: 'Roboto';
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -184,10 +199,12 @@ a {
     align-items: center;
 }
 .flax-child-block2-span {
+    font-family: 'Roboto';
     font-size: 16px;
     color: #FFFFFF;
 }
 .flax-child-block3-h4 {
+    font-family: 'Lato';
     width: 136px;
     font-size: 22px;
     color: #FFFFFF;
@@ -195,6 +212,7 @@ a {
     margin-bottom: 11px;
 }
 .flax-child-block3-p {
+    font-family: 'Roboto';
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -215,6 +233,7 @@ a {
     align-items: center;
 }
 .flax-child-block3-span {
+    font-family: 'Roboto';
     font-size: 16px;
     color: #FFFFFF;
 }
@@ -247,6 +266,7 @@ a {
     flex-direction: column;
 }
 .flax-child-block4-h4 {
+    font-family: 'Lato';
     width: 140px;
     font-size: 22px;
     color: #FFFFFF;
@@ -254,6 +274,7 @@ a {
     margin-bottom: 11px;
 }
 .flax-child-block4-p {
+    font-family: 'Roboto';
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -274,6 +295,7 @@ a {
     align-items: center;
 }
 .flax-child-block4-span {
+    font-family: 'Roboto';
     font-size: 16px;
     color: #FFFFFF;
 }
@@ -287,6 +309,7 @@ a {
     flex-direction: column;
 }
 .flax-child-block5-h4 {
+    font-family: 'Lato';
     width: 116px;
     font-size: 22px;
     color: #FFFFFF;
@@ -294,6 +317,7 @@ a {
     margin-bottom: 11px;
 }
 .flax-child-block5-p {
+    font-family: 'Roboto';
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -314,6 +338,7 @@ a {
     align-items: center;
 }
 .flax-child-block5-span {
+    font-family: 'Roboto';
     font-size: 16px;
     color: #FFFFFF;
 }
@@ -327,6 +352,7 @@ a {
     flex-direction: column;
 }
 .flax-child-block6-h4 {
+    font-family: 'Lato';
     width: 138px;
     font-size: 22px;
     color: #FFFFFF;
@@ -334,6 +360,7 @@ a {
     margin-bottom: 11px;
 }
 .flax-child-block6-p {
+    font-family: 'Roboto';
     width: 328px;
     height: 62px;
     font-size: 16px;
@@ -354,8 +381,7 @@ a {
     align-items: center;
 }
 .flax-child-block6-span {
+    font-family: 'Roboto';
     font-size: 16px;
     color: #FFFFFF;
 }
-=======
->>>>>>> 27934d754bdde27af78d91f16c5abfdea229babe
