@@ -128,24 +128,22 @@ a {
     text-align: center;
 
 }
-.flax-child-block1 {
+.flax-child-block {
     width: 370px;
     height: 451px;
-    background-color: #FBBA77;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-.flax-child-block1-h4 {
+.flax-child-block-h4 {
     font-family: 'Lato';
-    /*width: 104px;*/
     font-size: 22px;
     color: #FFFFFF;
     margin-top:  55px;
     margin-bottom: 11px;
 }
-.flax-child-block1-p {
+.flax-child-block-p {
     font-family: 'Roboto';
     line-height: 26px;
     width: 328px;
@@ -156,23 +154,58 @@ a {
     padding-left: 21px;
     padding-right: 21px;
 }
-.flax-child-block1-div {
+.flax-child-block-div {
     width: 131px;
     height: 45px;
-    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
     border-radius: 23px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.flax-child-block1-span {
+.flax-child-block-span {
     font-family: 'Roboto';
     font-size: 16px;
+    color: #FFFFFF;
+}
+.flax-child-block:first-child {
+    background-color: #FBBA77;
+}
+.white {
+    background-color: #FFFFFF;
+}
+.black {
+    color: black;
+}
+.flax-child-block:nth-child(2) {
+    background-color: #41EAE3;
+}
+.flax-child-block-div:nth-child(2) {
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-width: 2px;
+}
+.flax-child-block:nth-child(3) {
+    background-color: #69529F;
+}
+.row-flax1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 67px;
+    margin-bottom: 60px;
+}
+
+/*row-flax2*/
+.row-flax2 {
+    display: flex;
+    justify-content: space-between;
 }
 .flax-child-block2 {
     width: 370px;
     height: 451px;
-    background-color: #41EAE3;
+    background-color: #4386D2;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,7 +213,7 @@ a {
 }
 .flax-child-block2-h4 {
     font-family: 'Lato';
-    width: 92px;
+    width: 140px;
     font-size: 22px;
     color: #FFFFFF;
     margin-top:  55px;
@@ -188,8 +221,8 @@ a {
 }
 .flax-child-block2-p {
     font-family: 'Roboto';
-    line-height: 26px;
     width: 328px;
+    line-height: 26px;
     height: 62px;
     font-size: 16px;
     color: #FFFFFF;
@@ -213,189 +246,10 @@ a {
     font-size: 16px;
     color: #FFFFFF;
 }
-.flax-child-block3-h4 {
-    font-family: 'Lato';
-    /*width: 136px;*/
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-top:  55px;
-    margin-bottom: 11px;
-}
-.flax-child-block3-p {
-    font-family: 'Roboto';
-    width: 328px;
-    line-height: 26px;
-    height: 62px;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-bottom: 23px;
-    padding-left: 21px;
-    padding-right: 21px;
-}
-.flax-child-block3-div {
-    width: 131px;
-    height: 45px;
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flax-child-block3-span {
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #FFFFFF;
-}
-.flax-child-block3 {
-    width: 370px;
-    height: 451px;
-    background-color: #69529F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.row-flax1 {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 67px;
-    margin-bottom: 60px;
-}
-.row-flax2 {
-    display: flex;
-    justify-content: space-between;
-}
-.flax-child-block4 {
-    width: 370px;
-    height: 451px;
-    background-color: #4386D2;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.flax-child-block4-h4 {
-    font-family: 'Lato';
-    width: 140px;
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-top:  55px;
-    margin-bottom: 11px;
-}
-.flax-child-block4-p {
-    font-family: 'Roboto';
-    width: 328px;
-    line-height: 26px;
-    height: 62px;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-bottom: 23px;
-    padding-left: 21px;
-    padding-right: 21px;
-}
-.flax-child-block4-div {
-    width: 131px;
-    height: 45px;
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flax-child-block4-span {
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #FFFFFF;
-}
-.flax-child-block5 {
-    width: 370px;
-    height: 451px;
+.flax-child-block2:nth-child(2) {
     background-color: #A5A2F6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 }
-.flax-child-block5-h4 {
-    font-family: 'Lato';
-    width: 116px;
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-top:  55px;
-    margin-bottom: 11px;
-}
-.flax-child-block5-p {
-    font-family: 'Roboto';
-    width: 328px;
-    line-height: 26px;
-    height: 62px;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-bottom: 23px;
-    padding-left: 21px;
-    padding-right: 21px;
-}
-.flax-child-block5-div {
-    width: 131px;
-    height: 45px;
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flax-child-block5-span {
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #FFFFFF;
-}
-.flax-child-block6 {
-    width: 370px;
-    height: 451px;
+
+.flax-child-block2:nth-child(3) {
     background-color: #FF8088;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.flax-child-block6-h4 {
-    font-family: 'Lato';
-    /*width: 138px;*/
-    font-size: 22px;
-    color: #FFFFFF;
-    margin-top:  55px;
-    margin-bottom: 11px;
-}
-.flax-child-block6-p {
-    font-family: 'Roboto';
-    width: 328px;
-    line-height: 26px;
-    height: 62px;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin-bottom: 23px;
-    padding-left: 21px;
-    padding-right: 21px;
-}
-.flax-child-block6-div {
-    width: 131px;
-    height: 45px;
-    border-color: #FFFFFF;
-    border-style: solid;
-    border-width: 2px;
-    border-radius: 23px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.flax-child-block6-span {
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #FFFFFF;
 }
