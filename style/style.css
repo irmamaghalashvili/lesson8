@@ -6,8 +6,7 @@ a {
     margin: auto;
     justify-content: space-between;
     align-items: center;
-    width: 1600px;
-    height: 126px;
+    width: 1450px;
     padding: 30px;
     top: 30px;
  
@@ -16,12 +15,10 @@ a {
     font-family: 'Lato';
     font-size: 32px;
     width: 190px;
-    height: 43px;
 }
 .navigations {
     display: flex;
     width: 596px;
-    height: 27px;
 }
 .nav-li {
     font-family: 'Lato';
@@ -35,15 +32,14 @@ a {
 /*section1*/
 .section1 {
     display: flex;
-    width: 1708px;
+    width: 1450px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .right-box {
-    width: 800px;
-    height: 527px;
+    width: 600px;
 }
 .h2 {
     font-family: 'Lato';
@@ -83,8 +79,7 @@ a {
 .left-box {
     background-image: url(../images/undraw_pair_programming_njlp.png);
     margin-bottom: 287px;
-    width: 800px;
-    height: 527px;
+    width: 600px;
     
 }
 /*section2*/
@@ -130,7 +125,6 @@ a {
 }
 .flax-child-block {
     width: 370px;
-    height: 451px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -204,7 +198,6 @@ a {
 }
 .flax-child-block2 {
     width: 370px;
-    height: 451px;
     background-color: #4386D2;
     display: flex;
     justify-content: center;
