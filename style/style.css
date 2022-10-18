@@ -126,6 +126,7 @@ a {
 }
 .flax-child-block {
     width: 370px;
+    height: 451px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,6 +200,7 @@ a {
 }
 .flax-child-block2 {
     width: 370px;
+    height: 451px;
     background-color: #4386D2;
     display: flex;
     justify-content: center;
